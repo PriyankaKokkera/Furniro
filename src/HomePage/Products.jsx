@@ -12,15 +12,15 @@ import qwe3 from "../assets/image 8 (1).png"
 
 const Products = () => {
   return (
-    <div className="ml-[102px] w-[1236px] h-[1175px] flex flex-col py-[56px]">
+    <div className="ml-[102px] w-[1236px] h-[1175px] flex flex-col py-[56px] mt-[76px] md:ml-[0px] md:w-[98%] sm:ml-[0px] sm:w-[98%] ">
     <p className="font-poppins font-bold text-[40px] leading-[120%] tracking-[0%] text-[#3A3A3A] text-center">
   Our Products
 </p>
-<div className="flex  mb-[32px] w-[1236] h-[446px] mt-[32px] gap-[32px] ">
+<div className="flex  mb-[32px] w-[1236] h-[446px] mt-[32px] gap-[32px] md-[68%] md:gap-[8px] sm:gap-[2px] lg:[90%] lg:ml-[95px] lg:gap-[32px]">
 
 
 
-<div className="w-[285px] h-[446px] bg-[#F4F5F7] flex flex-col gap-[8px] relative group overflow-hidden">
+<div className="w-[285px] h-[446px]  flex flex-col gap-[8px] relative group overflow-hidden ">
 <div className="absolute top-[24px] left-[213px] w-[48px] h-[48px] rounded-full bg-[#E97171] px-[5px] py-[12px]">
   <span className="font-poppins font-medium text-[16px] leading-[150%] text-white">
     -30%
@@ -41,7 +41,7 @@ const Products = () => {
   <button className="px-6 py-2 bg-white text-black font-semibold shadow-md w-[202px] h-[48px]">
     Add to cart
   </button>
-  <div className="flex gap-[20px] mt-4 text-white">
+  <div className="flex gap-[20px] mt-4 text-white bg-amber-400">
     <div className="flex items-center gap-[2px]">
     <img src={share} alt="" className="w-[16px] h-[16px]"/>
     <p className="cursor-pointer hover:text-gray-300">Share</p>
@@ -264,7 +264,7 @@ Rp 14.000.000
 
 
 
-<div className="flex  mb-[32px] w-[1236] h-[446px] mt-[32px] gap-[32px] ">
+<div className="flex  mb-[32px] w-[1236] h-[446px] mt-[32px] gap-[32px]  md:[68%] md:gap-[8px] sm:gap-[2px] lg:[90%] lg:ml-[95px] lg:gap-[32px]">
 
 
 
