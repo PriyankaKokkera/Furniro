@@ -12,17 +12,17 @@ import qwe3 from "../assets/image 8 (1).png"
 
 const Products = () => {
   return (
-    <div className="ml-[102px] w-[1236px] h-[1175px] flex flex-col py-[56px] mt-[76px] md:ml-[0px] md:w-[98%] sm:ml-[0px] sm:w-[98%] ">
+    <div className="lg:ml-[102px] lg:w-[1236px] lg:h-[1175px] lg:flex lg:flex-col lg:py-[56px] lg:mt-[76px] md:ml-[0px] md:w-[98%] sm:ml-[0px] sm:w-[98%] ml-[80px] mt-[156px]  ">
     <p className="font-poppins font-bold text-[40px] leading-[120%] tracking-[0%] text-[#3A3A3A] text-center">
   Our Products
 </p>
-<div className="flex  mb-[32px] w-[1236] h-[446px] mt-[32px] gap-[32px] md-[68%] md:gap-[8px] sm:gap-[2px] lg:[90%] lg:ml-[95px] lg:gap-[32px]">
+<div className="lg:flex  lg:mb-[32px] lg:w-[1236] lg:h-[446px] lg:mt-[32px] gap-[32px] lg:md-[68%] md:gap-[8px] sm:gap-[2px] lg:[90%] lg:ml-[95px] lg:gap-[32px]  mt-[15px]">
 
 
 
-<div className="w-[285px] h-[446px]  flex flex-col gap-[8px] relative group overflow-hidden ">
-<div className="absolute top-[24px] left-[213px] w-[48px] h-[48px] rounded-full bg-[#E97171] px-[5px] py-[12px]">
-  <span className="font-poppins font-medium text-[16px] leading-[150%] text-white">
+<div className="lg:w-[285px] lg:h-[446px]  lg:flex lg:flex-col lg:gap-[8px] relative group overflow-hidden w-[320px] flex bg-[#F4F5F7] md:flex md:flex-col ">
+<div className="absolute lg:top-[24px] lg:left-[213px] lg:w-[48px] lg:h-[48px] rounded-full bg-[#E97171] lg:px-[5px] lg:py-[12px] w-[32px] h-[30px] px-[2px] py-[2px] left-[112px] top-[12px] md:w-[40px]">
+  <span className="font-poppins font-medium lg:text-[16px] leading-[150%] text-white text-[11px]" >
     -30%
   </span>
   </div> 
@@ -30,7 +30,7 @@ const Products = () => {
 <img
   src={table}
   alt="Stylish Chair"
-  className="w-[285px] h-[301px] object-cover transition duration-300 group-hover:opacity-60"
+  className="lg:w-[285px] lg:h-[301px] object-cover transition duration-300 group-hover:opacity-60 w-[150px] md:w-[300px]"
 />
 
 
@@ -58,21 +58,21 @@ const Products = () => {
 </div>
 
 
-<div className="w-[249px] h-[99px] mt-[16px] mr-[20px] mb-[30px] ml-[16px] relative z-10 flex flex-col gap-[8px]">
-  <p className="font-poppins font-semibold text-[24px] text-[#3A3A3A] ">
+<div className="lg:w-[249px] lg:h-[99px] mt-[16px] mr-[20px] mb-[30px] ml-[16px] relative z-10 lg:flex lg:flex-col gap-[8px]">
+  <p className="font-poppins font-semibold lg:text-[24px] text-[#3A3A3A] text-[16px]">
   Syltherine
   </p>
-  <p className="font-poppins font-medium text-[16px] text-[#898989] ">
+  <p className="font-poppins font-medium lg:text-[16px] text-[#898989] text-[12px]">
   Stylish cafe chair
   </p>
   {/* <p className="font-poppins font-semibold text-[20px] text-[#3A3A3A]">
   Rp 7.000.000
   </p> */}
-  <div className="flex items-center gap-[16px]">
-  <p className="font-poppins font-semibold text-[20px] leading-[150%] tracking-[0%] text-[#3A3A3A]">
+  <div className="lg:flex lg:items-center lg:gap-[16px] gap-[10px]">
+  <p className="font-poppins font-semibold lg:text-[20px] leading-[150%] tracking-[0%] text-[#3A3A3A] text-[16px]">
   Rp 2.500.000
 </p>
-<p className="font-poppins font-normal text-[16px] leading-[150%] tracking-[0%] text-[#B0B0B0] line-through">
+<p className="font-poppins font-normal lg:text-[20px]  text-[16px] leading-[150%] tracking-[0%] text-[#B0B0B0] line-through">
 Rp 3.500.000
 </p>
 </div>
@@ -84,13 +84,13 @@ Rp 3.500.000
   {/* first one */}
 
 
-  <div className="w-[285px] h-[446px] bg-[#F4F5F7] flex flex-col gap-[8px] relative group overflow-hidden">
+  <div className="lg:w-[285px] lg:h-[446px] bg-[#F4F5F7] lg:flex lg:flex-col gap-[8px] relative group overflow-hidden w-[320px] mt-[12px] flex lg:mt-[0px]">
     
 
   <img
     src={hall}
     alt="Stylish Chair"
-    className="w-[285px] h-[301px] object-cover transition duration-300 group-hover:opacity-60"
+    className="lg:w-[285px] lg:h-[301px] object-cover transition duration-300 group-hover:opacity-60 w-[150px]"
   />
 
  
@@ -119,13 +119,13 @@ Rp 3.500.000
 
   
   <div className="w-[249px] h-[99px] mt-[16px] mr-[20px] mb-[30px] ml-[16px] relative z-10 flex flex-col gap-[8px]">
-    <p className="font-poppins font-semibold text-[24px] text-[#3A3A3A] ">
+    <p className="font-poppins font-semibold lg:text-[24px] text-[#3A3A3A]  text-[16px]">
       Leviosa
     </p>
-    <p className="font-poppins font-medium text-[16px] text-[#898989] ">
+    <p className="font-poppins font-medium lg:text-[16px] text-[#898989] text-[12px]">
       Stylish cafe chair
     </p>
-    <p className="font-poppins font-semibold text-[20px] text-[#3A3A3A]">
+    <p className="font-poppins font-semibold lg:text-[20px] text-[#3A3A3A] text-[16px]">
       Rp 2.500.000
     </p>
   </div>
@@ -133,11 +133,13 @@ Rp 3.500.000
  
 
 </div>
+
+
 {/* //second one */}
 
-<div className="w-[285px] h-[446px] bg-[#F4F5F7] flex flex-col gap-[8px] relative group overflow-hidden">
-<div className="absolute top-[24px] left-[213px] w-[48px] h-[48px] rounded-full bg-[#E97171] px-[5px] py-[12px]">
-  <span className="font-poppins font-medium text-[16px] leading-[150%] text-white">
+<div className="lg:w-[285px] lg:h-[446px] bg-[#F4F5F7] lg:flex lg:flex-col gap-[8px] relative group overflow-hidden w-[320px] flex mt-[12px] lg:mt-[0px]">
+<div className="absolute lg:top-[24px] lg:left-[213px] lg:w-[48px] lg:h-[48px] rounded-full bg-[#E97171] lg:px-[5px] lg:py-[12px] w-[32px] h-[30px] px-[2px] py-[2px] left-[112px] top-[12px]">
+  <span className="font-poppins font-medium lg:text-[16px] leading-[150%] text-white text-[11px]">
     -50%
   </span>
   </div> 
@@ -145,7 +147,7 @@ Rp 3.500.000
 <img
   src={chair}
   alt="Stylish Chair"
-  className="w-[285px] h-[301px] object-cover transition duration-300 group-hover:opacity-60"
+  className="lg:w-[285px] lg:h-[301px] object-cover transition duration-300 group-hover:opacity-60 w-[150px]"
 />
 
 
@@ -174,20 +176,20 @@ Rp 3.500.000
 
 
 <div className="w-[249px] h-[99px] mt-[16px] mr-[20px] mb-[30px] ml-[16px] relative z-10 flex flex-col gap-[8px]">
-  <p className="font-poppins font-semibold text-[24px] text-[#3A3A3A] ">
+  <p className="font-poppins font-semibold lg:text-[24px] text-[#3A3A3A] text-[12px]">
   Lolito
   </p>
-  <p className="font-poppins font-medium text-[16px] text-[#898989] ">
+  <p className="font-poppins font-medium lg:text-[16px] text-[#898989] text-[12px]">
   Luxury big sofa
   </p>
   {/* <p className="font-poppins font-semibold text-[20px] text-[#3A3A3A]">
   Rp 7.000.000
   </p> */}
-  <div className="flex items-center gap-[16px]">
-  <p className="font-poppins font-semibold text-[20px] leading-[150%] tracking-[0%] text-[#3A3A3A]">
+  <div className="flex items-center lg:gap-[16px] gap-[10px]">
+  <p className="font-poppins font-semibold lg:text-[20px] leading-[150%] tracking-[0%] text-[#3A3A3A] text-[12px]">
   Rp 7.000.000
 </p>
-<p className="font-poppins font-normal text-[16px] leading-[150%] tracking-[0%] text-[#B0B0B0] line-through">
+<p className="font-poppins font-normal lg:text-[16px] leading-[150%] tracking-[0%] text-[#B0B0B0] line-through text-[12px">
 Rp 14.000.000
 </p>
 </div>
@@ -197,9 +199,9 @@ Rp 14.000.000
 
 {/* fourth one */}
 
-<div className="w-[285px] h-[446px] bg-[#F4F5F7] flex flex-col gap-[8px] relative group overflow-hidden">
-<div className="absolute top-[24px] left-[213px] w-[48px] h-[48px] rounded-full bg-[#2EC1AC] px-[5px] py-[12px]">
-  <span className="font-poppins font-medium text-[16px] leading-[150%] text-white">
+<div className="lg:w-[285px] lg:h-[446px] bg-[#F4F5F7] lg:flex lg:flex-col lg:gap-[8px] relative group overflow-hidden w-[320px] mt-[12px] flex lg:mt-[0px]">
+<div className="absolute lg:top-[24px] lg:left-[213px] lg:w-[48px] lg:h-[48px] rounded-full bg-[#2EC1AC] lg:px-[5px] lg:py-[12px] w-[32px] h-[30px] px-[2px] py-[2px] left-[112px] top-[12px]">
+  <span className="font-poppins font-medium lg:text-[16px] leading-[150%] text-white text-[11px]">
     NEW
   </span>
   </div> 
@@ -207,7 +209,7 @@ Rp 14.000.000
 <img
   src={sofa1}
   alt="Stylish Chair"
-  className="w-[285px] h-[301px] object-cover transition duration-300 group-hover:opacity-60"
+  className="lg:w-[285px] lg:h-[301px] object-cover transition duration-300 group-hover:opacity-60 w-[150px]"
 />
 
 
@@ -236,17 +238,17 @@ Rp 14.000.000
 
 
 <div className="w-[249px] h-[99px] mt-[16px] mr-[20px] mb-[30px] ml-[16px] relative z-10 flex flex-col gap-[8px]">
-  <p className="font-poppins font-semibold text-[24px] text-[#3A3A3A] ">
+  <p className="font-poppins font-semibold lg:text-[24px] text-[#3A3A3A] text-[16px]">
   Respira
   </p>
-  <p className="font-poppins font-medium text-[16px] text-[#898989] ">
+  <p className="font-poppins font-medium lg:text-[16px] text-[#898989] text-[12px] ">
   Outdoor bar table and stool
   </p>
   {/* <p className="font-poppins font-semibold text-[20px] text-[#3A3A3A]">
   Rp 7.000.000
   </p> */}
  
-  <p className="font-poppins font-semibold text-[20px] leading-[150%] tracking-[0%] text-[#3A3A3A]">
+  <p className="font-poppins font-semibold lg:text-[20px] leading-[150%] tracking-[0%] text-[#3A3A3A] text-[12px]">
   Rp 500.000
 </p>
 
@@ -264,32 +266,32 @@ Rp 14.000.000
 
 
 
-<div className="flex  mb-[32px] w-[1236] h-[446px] mt-[32px] gap-[32px]  md:[68%] md:gap-[8px] sm:gap-[2px] lg:[90%] lg:ml-[95px] lg:gap-[32px]">
+<div className="lg:flex  mb-[32px] lg:w-[1236] lg:h-[448px] lg:mt-[32px] gap-[32px]  md:[68%] md:gap-[8px] sm:gap-[2px] lg:[90%] lg:ml-[95px] lg:gap-[32px] mt-[10px]"> 
 
 
 
-<div className="w-[285px] h-[446px] bg-[#F4F5F7] flex flex-col gap-[8px] relative group overflow-hidden">
-{/* <div className="absolute top-[24px] left-[213px] w-[48px] h-[48px] rounded-full bg-[#E97171] px-[5px] py-[12px]">
-  <span className="font-poppins font-medium text-[16px] leading-[150%] text-white">
+<div className="lg:w-[285px] lg:h-[446px] bg-[#F4F5F7]  lg:gap-[8px] relative group overflow-hidden w-[320px] flex lg:flex lg:flex-col"> 
+<div className="absolute lg:top-[24px] lg:left-[213px] lg:w-[48px] lg:h-[48px] rounded-full bg-[#E97171] lg:px-[5px] lg:py-[12px] w-[32px] h-[30px] px-[2px] py-[2px] left-[112px] top-[12px]">
+  <span className="font-poppins font-medium lg:text-[16px] leading-[150%] text-white text-[11px]">
     -30%
   </span>
-  </div>  */}
+  </div> 
 
-<img
+ <img
   src={qwe}
   alt="Stylish Chair"
-  className="w-[285px] h-[301px] object-cover transition duration-300 group-hover:opacity-60"
-/>
+  className="lg:w-[285px] lg:h-[301px] object-cover transition duration-300 group-hover:opacity-60 w-[150px]"
+/> 
 
 
-<div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-60 transition duration-300 "></div>
+<div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-60 transition duration-300 "></div> 
 
 
 
-<div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 z-20 ">
+<div className="absolute inset-0 lg:flex lg:flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 z-20 ">
   <button className="px-6 py-2 bg-white text-black font-semibold shadow-md w-[202px] h-[48px]">
-    Add to cart
-  </button>
+    Add to cart 
+  </button> 
   <div className="flex gap-[20px] mt-4 text-white">
     <div className="flex items-center gap-[2px]">
     <img src={share} alt="" className="w-[16px] h-[16px]"/>
@@ -304,42 +306,47 @@ Rp 14.000.000
     <p className="cursor-pointer hover:text-gray-300">Like</p>
     </div>
   </div>
-</div>
+</div> 
 
 
-<div className="w-[249px] h-[99px] mt-[16px] mr-[20px] mb-[30px] ml-[16px] relative z-10 flex flex-col gap-[8px]">
-  <p className="font-poppins font-semibold text-[24px] text-[#3A3A3A] ">
+<div className="lg:w-[249px] lg:h-[99px] mt-[16px] mr-[20px] mb-[30px] ml-[16px] relative z-10 flex flex-col gap-[8px]">
+  <p className="font-poppins font-semibold lg:text-[24px] text-[#3A3A3A] text-[16px] ">
   Grifo
   </p>
-  <p className="font-poppins font-medium text-[16px] text-[#898989] ">
+  <p className="font-poppins font-medium lg:text-[16px] text-[#898989] text-[12px] ">
   Night lamp
-  </p>
-  {/* <p className="font-poppins font-semibold text-[20px] text-[#3A3A3A]">
+  </p> 
+  <div className="flex items-center lg:gap-[16px] gap-[10px] text-[12px]">
+  <p className="font-poppins font-semibold lg:text-[20px] leading-[150%] tracking-[0%] text-[#3A3A3A] text-[12px]">
   Rp 7.000.000
-  </p> */}
-  <p className="font-poppins font-semibold text-[20px] leading-[150%] tracking-[0%] text-[#3A3A3A]">
-  Rp 1.500.000
 </p>
+<p className="font-poppins font-normal lg:text-[16px] leading-[150%] tracking-[0%] text-[#B0B0B0] line-through text-[12px">
+Rp 14.000.000
+</p>
+</div>
+
+
+
 
 </div>
 
 </div>
+ 
+
+  {/* // first one  */}
 
 
-  {/* first one */}
-
-
-  <div className="w-[285px] h-[446px] bg-[#F4F5F7] flex flex-col gap-[8px] relative group overflow-hidden">
-  <div className="absolute top-[24px] left-[213px] w-[48px] h-[48px] rounded-full bg-[#2EC1AC] px-[5px] py-[12px]">
-  <span className="font-poppins font-medium text-[16px] leading-[150%] text-white">
+  <div className="lg:w-[285px] lg:h-[446px] bg-[#F4F5F7] lg:flex lg:flex-col gap-[8px] relative group overflow-hidden flex w-[320px] mt-[10px]">
+  <div className="absolute lg:top-[24px] lg:left-[213px] lg:w-[48px] lg:h-[48px] rounded-full bg-[#2EC1AC] lg:px-[5px] lg:py-[12px] w-[32px] h-[30px] px-[2px] py-[2px] left-[112px] top-[12px]">
+  <span className="font-poppins font-medium lg:text-[16px] leading-[150%] text-white text-[11px]">
     NEW
   </span>
-  </div>
+  </div> 
 
   <img
     src={qwe1}
     alt="Stylish Chair"
-    className="w-[285px] h-[301px] object-cover transition duration-300 group-hover:opacity-60"
+    className="lg:w-[285px] lgh:[301px] object-cover transition duration-300 group-hover:opacity-60 w-[150px] h-[150px] lg:mt-[0px] "
   />
 
  
@@ -349,8 +356,8 @@ Rp 14.000.000
   <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 z-20 ">
     <button className="px-6 py-2 bg-white text-black font-semibold shadow-md w-[202px] h-[48px]">
       Add to cart
-    </button>
-    <div className="flex gap-[20px] mt-4 text-white">
+    </button> 
+     <div className="flex gap-[20px] mt-4 text-white">
       <div className="flex items-center gap-[2px]">
       <img src={share} alt="" className="w-[16px] h-[16px]"/>
       <p className="cursor-pointer hover:text-gray-300">Share</p>
@@ -367,34 +374,34 @@ Rp 14.000.000
   </div>
 
   
-  <div className="w-[249px] h-[99px] mt-[16px] mr-[20px] mb-[30px] ml-[16px] relative z-10 flex flex-col gap-[8px]">
-    <p className="font-poppins font-semibold text-[24px] text-[#3A3A3A] ">
+  <div className="lg:w-[1249px] lg:h-[99px] lg:mt-[16px] mr-[20px] mb-[30px] ml-[16px] relative z-10 flex flex-col gap-[8px]">
+    <p className="font-poppins font-semibold lg:text-[24px] text-[#3A3A3A] text-[16px] ">
     Muggo
     </p>
-    <p className="font-poppins font-medium text-[16px] text-[#898989] ">
+    <p className="font-poppins font-medium lg:text-[16px] text-[#898989] text-[12px] ">
     Small mug
     </p>
-    <p className="font-poppins font-semibold text-[20px] text-[#3A3A3A]">
+    <p className="font-poppins font-semibold lg:text-[20px] text-[#3A3A3A] text-[16px]">
     Rp 150.000
     </p>
-  </div>
+  </div> 
 
  
 
-</div>
+</div> 
 {/* //second one */}
 
-<div className="w-[285px] h-[446px] bg-[#F4F5F7] flex flex-col gap-[8px] relative group overflow-hidden">
-<div className="absolute top-[24px] left-[213px] w-[48px] h-[48px] rounded-full bg-[#E97171] px-[5px] py-[12px]">
-  <span className="font-poppins font-medium text-[16px] leading-[150%] text-white">
+<div className="lg:w-[285px] lg:h-[446px] bg-[#F4F5F7] lg:flex lg:flex-col gap-[8px] relative group overflow-hidden flex w-[320px] mt-[10px]">
+<div className="absolute lg:top-[24px] lg:left-[213px] lg:w-[48px] lg:h-[48px] rounded-full bg-[#E97171] lg:px-[5px] lg:py-[12px] w-[32px] h-[30px] px-[2px] py-[2px] left-[112px] top-[12px]">
+  <span className="font-poppins font-medium lg:text-[16px] leading-[150%] text-white text-[11px]">
     -50%
   </span>
-  </div> 
+  </div>  
 
 <img
   src={chair}
   alt="Stylish Chair"
-  className="w-[285px] h-[301px] object-cover transition duration-300 group-hover:opacity-60"
+  className="lg:w-[285px] lg:h-[301px] object-cover transition duration-300 group-hover:opacity-60 w-[160px] h-[150px]"
 />
 
 
@@ -404,8 +411,8 @@ Rp 14.000.000
 <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 z-20 ">
   <button className="px-6 py-2 bg-white text-black font-semibold shadow-md w-[202px] h-[48px]">
     Add to cart
-  </button>
-  <div className="flex gap-[20px] mt-4 text-white">
+  </button> 
+   <div className="flex gap-[20px] mt-4 text-white">
     <div className="flex items-center gap-[2px]">
     <img src={share} alt="" className="w-[16px] h-[16px]"/>
     <p className="cursor-pointer hover:text-gray-300">Share</p>
@@ -419,21 +426,18 @@ Rp 14.000.000
     <p className="cursor-pointer hover:text-gray-300">Like</p>
     </div>
   </div>
-</div>
+</div> 
 
-
-<div className="w-[249px] h-[99px] mt-[16px] mr-[20px] mb-[30px] ml-[16px] relative z-10 flex flex-col gap-[8px]">
-  <p className="font-poppins font-semibold text-[24px] text-[#3A3A3A] ">
+ <div className="w-[249px] h-[99px] mt-[16px] mr-[20px] mb-[30px] ml-[16px] relative z-10 flex flex-col gap-[8px]">
+  <p className="font-poppins font-semibold lg:text-[24px] text-[#3A3A3A] text-[16px]">
   Pingky
   </p>
-  <p className="font-poppins font-medium text-[16px] text-[#898989] ">
+  <p className="font-poppins font-medium lg:text-[16px] text-[#898989] text-[12px]">
   Cute bed set
-  </p>
-  {/* <p className="font-poppins font-semibold text-[20px] text-[#3A3A3A]">
-  Rp 7.000.000
-  </p> */}
-  <div className="flex items-center gap-[16px]">
-  <p className="font-poppins font-semibold text-[20px] leading-[150%] tracking-[0%] text-[#3A3A3A]">
+  </p> 
+   
+  <div className="lg:flex items-center lg:gap-[16px]">
+  <p className="font-poppins font-semibold lg:text-[20px] leading-[150%] tracking-[0%] text-[#3A3A3A] text-[16px]">
   Rp 7.000.000
 </p>
 <p className="font-poppins font-normal text-[16px] leading-[150%] tracking-[0%] text-[#B0B0B0] line-through">
@@ -442,21 +446,21 @@ Rp 14.000.000
 </div>
 </div>
 
-</div>
+</div> 
 
 {/* fourth one */}
 
-<div className="w-[285px] h-[446px] bg-[#F4F5F7] flex flex-col gap-[8px] relative group overflow-hidden">
-<div className="absolute top-[24px] left-[213px] w-[48px] h-[48px] rounded-full bg-[#2EC1AC] px-[5px] py-[12px]">
-  <span className="font-poppins font-medium text-[16px] leading-[150%] text-white">
+ <div className="lg:w-[285px] lg:h-[446px] bg-[#F4F5F7] lg:flex lg:flex-col gap-[8px] relative group overflow-hidden flex w-[320px] mt-[10px]">
+<div className="absolute lg:top-[24px] lg:left-[213px] lg:w-[48px] lg:h-[48px] rounded-full bg-[#2EC1AC] lg:px-[5px] lg:py-[12px] w-[32px] h-[30px] px-[2px] py-[2px] left-[112px] top-[12px]">
+  <span className="font-poppins font-medium lg:text-[16px] leading-[150%] text-white text-[11px]">
     NEW
   </span>
-  </div> 
+  </div>  
 
-<img
+ <img
   src={qwe2}
   alt="Stylish Chair"
-  className="w-[285px] h-[301px] object-cover transition duration-300 group-hover:opacity-60"
+  className="lg:w-[285px] lg:h-[301px] object-cover transition duration-300 group-hover:opacity-60 w-[160px] h-[150px]"
 />
 
 
@@ -466,7 +470,7 @@ Rp 14.000.000
 <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 z-20 ">
   <button className="px-6 py-2 bg-white text-black font-semibold shadow-md w-[202px] h-[48px]">
     Add to cart
-  </button>
+  </button> 
   <div className="flex gap-[20px] mt-4 text-white">
     <div className="flex items-center gap-[2px]">
     <img src={share} alt="" className="w-[16px] h-[16px]"/>
@@ -480,7 +484,7 @@ Rp 14.000.000
     <img src={like} alt="" className="w-[16px] h-[16px]"/>
     <p className="cursor-pointer hover:text-gray-300">Like</p>
     </div>
-  </div>
+  </div> 
 </div>
 
 
@@ -489,11 +493,9 @@ Rp 14.000.000
   Potty
   </p>
   <p className="font-poppins font-medium text-[16px] text-[#898989] ">
-  Minimalist flower pot
+  Minimalist flower pot 
   </p>
-  {/* <p className="font-poppins font-semibold text-[20px] text-[#3A3A3A]">
-  Rp 7.000.000
-  </p> */}
+ 
  
   <p className="font-poppins font-semibold text-[20px] leading-[150%] tracking-[0%] text-[#3A3A3A]">
   Rp 500.000
