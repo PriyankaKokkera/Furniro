@@ -513,7 +513,7 @@ Rp 14.000.000
 </div>
  
 
-  <button className="font-poppins font-semibold text-[16px] leading-[150%] text-[#B88E2F] border border-[#B88E2F] px-[78px] py-[12px] w-[245px] h-[48px] mx-auto">
+  <button className="font-poppins font-semibold lg:text-[16px] leading-[150%] text-[#B88E2F] border border-[#B88E2F] lg:px-[78px] lg:py-[12px] lg:w-[245px] lg:h-[48px] lg:mx-auto md:text-[14px] md:px-[50px] md:py-[12px] md:w-[200px] md:h-[48px] md:mx-auto absolute md:left-[280px] lg:left-[600px] lg:top-[2580px] md:top-[1970px]">
     Show More
   </button>
 

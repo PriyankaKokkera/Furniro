@@ -22,7 +22,7 @@ const Browse = () => {
       
       <div className="flex flex-wrap justify-center gap-[20px] lg:mt-[62px] mt-[62px] md:mt-[26px]">
        
-        <div className="lg:w-[381px] lg:h-[480px] flex flex-col items-center sm:w-full md:w-[48%] md:h-[250px] w-[150px] mt-[45px] lg::mt-[35px] md:mt-[1px] ">
+        <div className="lg:w-[381px] lg:h-[480px] flex flex-col items-center sm:w-full md:w-[35%] md:h-[250px] w-[150px] mt-[45px] lg::mt-[35px] md:mt-[1px] ">
           <img src={dining} alt="Dining" className="w-full h-full object-cover lg:rounded-none md:rounded-3xl" />
           <p className="font-poppins font-semibold lg:text-[24px] text-center text-[#333333] mt-[30px] sm:mt-4 md:mt-2 text-[24px] md:text-[20px] lg:ml-[0px] md:ml-[-120px] ">
             Dining
@@ -30,7 +30,7 @@ const Browse = () => {
         </div>
 
      
-        <div className="lg:w-[381px] lg:h-[480px] flex flex-col items-center sm:w-full md:w-[48%] w-[150px]  md:h-[250px] sm:mt-[45px]  mt-[52px]  lg::mt-[35px] md:mt-[1px]">
+        <div className="lg:w-[381px] lg:h-[480px] flex flex-col items-center sm:w-full md:w-[35%] w-[150px]  md:h-[250px] sm:mt-[45px]  mt-[52px]  lg::mt-[35px] md:mt-[1px]">
           <img src={living} alt="Living" className="w-full h-full object-cover lg:rounded-none md:rounded-3xl" />
           <p className="font-poppins font-semibold lg:text-[24px] text-center text-[#333333] mt-[30px] sm:mt-4 md:mt-2 text-[24px] md:text-[20px] lg:ml-[0px] md:ml-[70px]">
             Living
@@ -38,7 +38,7 @@ const Browse = () => {
         </div>
 
         
-        <div className="lg:w-[381px] lg:h-[480px] flex flex-col items-center sm:w-full md:w-[48%] w-[150px] md:h-[250px] sm:mt-[45px]  lg::mt-[35px] md:mt-[1px]">
+        <div className="lg:w-[381px] lg:h-[480px] flex flex-col items-center sm:w-full md:w-[35%] w-[150px] md:h-[250px] sm:mt-[45px]  lg::mt-[35px] md:mt-[1px]">
           <img src={bedroom} alt="Bedroom" className="w-full h-full object-cover lg:rounded-none md:rounded-3xl" />
           <p className="font-poppins font-semibold lg:text-[24px] text-center text-[#333333] mt-[30px] sm:mt-4 md:mt-2 text-[24px] md:text-[20px] ">
             Bedroom
